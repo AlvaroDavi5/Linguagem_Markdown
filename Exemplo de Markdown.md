@@ -21,7 +21,7 @@ _italico_
 __negrito__  
 **negrito**
 
-`caixa de texto`  
+`caixa de código`  
 ```caixa de texto```
 
 ```
@@ -75,4 +75,12 @@ Div a direita (do HTML)
 <img src="https://www.omgubuntu.co.uk/wp-content/uploads/2016/10/GOUKlfP.jpg" alt="outra imagem (do HTML)" height="300hv" width="500wv">  
 
 </div>
+
+### Tabela
+
+| Left columns  | Center columns | Right columns |
+|:------------- |:--------------:|--------------:|
+| left foo      | center foo     | right foo     |
+| left bar      | center bar     | right bar     |
+| left baz      | celter baz     | right faz     |
 
