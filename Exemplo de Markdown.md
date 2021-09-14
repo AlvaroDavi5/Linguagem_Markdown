@@ -9,9 +9,9 @@
 ##### formato H5
 
 separação
-------------------------------------------------------------------------------------------
+-----------
 separação
-__________________________________________________________________________________________
+___________
 
 texto comum
 
@@ -21,26 +21,28 @@ _italico_
 __negrito__  
 **negrito**
 
-`caixa de código`  
-```caixa de texto```
+`linha de código`  
 
-```
-# caixa de código
+	linha de texto
+
+```python
+# caixa de código ou texto
 
 print("Oi")
 ```
 
-	caixa de código ou texto
 
 
 
 * tópico 1
+	1. Item 1
+	2. Item 2
 - tópico 2
-	* subtópico 1
-	- subtópico 2
-		* sub-subtópico 1
+	* subtópico 2.1
+	- subtópico 2.2
+		* sub-subtópico 2.2.1
 			> conteudo
-		- sub-subtópico 2
+		- sub-subtópico 2.2.2
 			> conteudo
 
 
