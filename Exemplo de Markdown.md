@@ -31,7 +31,11 @@ __negrito__
 print("Oi")
 ```
 
-
+#### Case Styles
+camelCase - `function createUser() {}`
+PascalCase - `Class Model {}`
+snake_case - `const user_id = getUserId()`
+SCREAMING_SNAKE_CASE - `#define MAX_LEN 25`
 
 
 * tópico 1
