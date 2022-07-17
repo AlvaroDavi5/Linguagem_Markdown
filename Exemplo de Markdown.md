@@ -9,9 +9,9 @@
 ##### formato H5
 
 separação
------------
+---
 separação
-___________
+___
 
 texto comum
 
@@ -20,13 +20,6 @@ _italico_
 
 __negrito__  
 **negrito**
-
-
-#### Case Styles
-camelCase - `function createUser() {}`   
-PascalCase - `Class Model {}`   
-snake_case - `const user_id = getUserId()`   
-SCREAMING_SNAKE_CASE - `#define MAX_LEN 25`  
 
 
 `linha de código`  
@@ -87,7 +80,7 @@ Div a direita (do HTML)
 ### Tabela
 
 | Left columns  | Center columns | Right columns |
-|:------------- |:--------------:|--------------:|
+|:--------------|:--------------:|--------------:|
 | left foo      | center foo     | right foo     |
 | left bar      | center bar     | right bar     |
 | left baz      | celter baz     | right faz     |
