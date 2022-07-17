@@ -109,10 +109,10 @@ ___
 - Branches:
 	- Nomenclature: `type/CODE-descriptive_name`
 	- Commom Branches:
-		> _main | master_: Stable in Production
-		> _rel | release_: Stable to Deploy in Production
-		> _hml | homolog | staging_: Feature Validation and Tests
-		> _dev | develop_: Ustable Product in Development
+		> _main | master_: Stable in Production  
+		> _rel | release_: Stable to Deploy in Production  
+		> _hml | homolog | staging_: Feature Validation and Tests  
+		> _dev | develop_: Ustable Product in Development  
 
 
 ___
