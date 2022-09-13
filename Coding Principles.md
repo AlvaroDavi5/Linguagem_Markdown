@@ -1,10 +1,10 @@
 # Case Types:
 
-- **PascalCase**: _classes_  
-- **camelCase**: _functions, members, methods, attributes, parameters, variables_  
-- **snake_case**: _files, database/dataset columns, objects/dicts fields_  
-- **SCREAMING_CASE**: _macros, constants_  
-- **kebab-case**: _ids_  
+- **PascalCase**: _classes, interfaces, types, enums, decorators_
+- **camelCase**: _functions, methods, properties, members, attributes, parameters, variables_
+- **snake_case**: _files, database/dataset columns, objects/dicts fields_
+- **SCREAMING_CASE**: _macros, constants_
+- **kebab-case**: _ids_
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 # GitFlow:
 
-- Commits:  
+- Commits:
 	- Structure:
 		```text
 		:emoji: type: resumed description
@@ -95,24 +95,24 @@ ___
 		full description
 		```
 	- Types Nomenclature:
-		* **feat**: new feature addition  
-		* **fix**: bugfix or corrections  
-		* **hotfix**: urgent fix  
-		* **doc**: documentation updates or corrections  
-		* **test**: test alterations  
-		* **build**: dependencies and build files alterations  
-		* **rerf**: performance alterations  
-		* **refact**: code refactoration  
-		* **style**: code style changes  
-		* **ci**: continous integration/delivery changes  
-		* **chore**: packages and configs changes  
+		* **feat**: new feature addition
+		* **fix**: bugfix or corrections
+		* **hotfix**: urgent fix
+		* **doc**: documentation updates or corrections
+		* **test**: test alterations
+		* **build**: dependencies and build files alterations
+		* **rerf**: performance alterations
+		* **refact**: code refactoration
+		* **style**: code style changes
+		* **ci**: continous integration/delivery changes
+		* **chore**: packages and configs changes
 - Branches:
 	- Nomenclature: `type/CODE-descriptive_name`
 	- Commom Branches:
-		> _main | master_: Stable in Production  
-		> _rel | release_: Stable to Deploy in Production  
-		> _hml | homolog | staging_: Feature Validation and Tests  
-		> _dev | develop_: Ustable Product in Development  
+		> _main | master_: Stable in Production
+		> _rel | release_: Stable to Deploy in Production
+		> _hml | homolog | staging_: Feature Validation and Tests
+		> _dev | develop_: Ustable Product in Development
 
 
 ___
@@ -121,11 +121,11 @@ ___
 
 - Version:
 	- Nomenclature: `X.Y.Z-PR+MD`
-		> **X | Major**: to incompatible API changes.  
-		> **Y | Minor**: to add functionality in a backwards compatible manner.  
-		> **Z | Patch**: to make backwards compatible bug fixes.  
-		> **PR | Pre-Release**: to denote pre-release versions.  
-		> **MD | Metadata**: to denote versions with specific metadata.  
+		> **X | Major**: to incompatible API changes.
+		> **Y | Minor**: to add functionality in a backwards compatible manner.
+		> **Z | Patch**: to make backwards compatible bug fixes.
+		> **PR | Pre-Release**: to denote pre-release versions.
+		> **MD | Metadata**: to denote versions with specific metadata.
 - Changelog:
 	- Structure:
 		```markdown
