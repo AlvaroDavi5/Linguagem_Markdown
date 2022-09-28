@@ -1,3 +1,4 @@
+
 # Case Types:
 
 - **PascalCase**: _classes, interfaces, types, enums, decorators_
@@ -8,7 +9,7 @@
 
 ___
 
-# Clean Code:
+# Clean Code and Clean Architecture:
 
 - Meaningful, Pronounceable, Searchable and Short but Descriptive Names
 	* Context Names
@@ -62,24 +63,41 @@ ___
 	* **Open-Closed**: Entities should be Open for Extension but must be Closed to Modification
 	* **Liskov Substitution**: A Derived Class must be Replaceable with its Base Class
 	* **Interface Segregation**: Segregate Interfaces as per the Requirements of Program rather than one General Purpose Implementation
-	* **Dependency Inversion**: Hight-Level Classes should not depend on Low-Level Classes instead both should depend upon Abstraction.
+	* **Dependency Inversion**: Hight-Level Classes should not depend on Low-Level Classes instead both should depend upon Abstraction
 - ...
 
 ___
 
 # 12 Factor App:
 
-...
+- Codebase: One codebase, many deploys, strict version control
+- Dependencies: Explicitly declare and isolate dependencies
+- Configuration: Configuration stored in each environment for deploy, preferably outside the code, in environment variables
+- Backing Services: The application could use backing services as resources, the backing services should preferably can be represented by code abstractions and run separately (databases, caching services, queue consumers, API clients...)
+- Build, Release, Run: The deployment process has three stages. The build generate a executable application (compiling and packaging); The release sends the build already configurated to the server; The run enable the application and it services to the final use
+- Processes: Keep all the processes stateless and shared-nothing. The state and others persistent data should be stored in a stateful backing service
+- Port Binding: The essentials services of the app should not depend of external servers and can be accessed by the other app services listening ports
+- Concurrency: The processes should be scaled independently and executed parallelly. The architecture should permit synchronous and asynchronous communication when neccessary
+- Disposability: The processes should be independent and should can be started up or shut down safely, without lost data or affect the other processes
+- Dev/Prod Parity: The develop, homolog and production environments should have parity and minimize gaps with continuous deployment
+- Logs: The application logs should be stored safely and monitored to evit/detect errors
+- Admin Processes: Administrative tasks can be automatized to evit exteral/manual dependency
 
 ___
 
-# Design Patters:
+# Domain-Driven Design:
 
 ...
 
 ___
 
 # Architectures:
+
+...
+
+___
+
+# Design Patters:
 
 ...
 
@@ -99,18 +117,20 @@ ___
 		* **fix**: bugfix or corrections
 		* **hotfix**: urgent fix
 		* **doc**: documentation updates or corrections
-		* **test**: test alterations
-		* **build**: dependencies and build files alterations
-		* **rerf**: performance alterations
-		* **refact**: code refactoration
-		* **style**: code style changes
-		* **ci**: continous integration/delivery changes
 		* **chore**: packages and configs changes
+		* **build**: dependencies and build files alterations
+		* **test**: tests alterations
+		* **perf**: performance alterations
+		* **refact**: code refactoration
+		* **style**: code style and format changes
+		* **ci**: continous integration/delivery changes
+		* **env**: environment configurations changes
 - Branches:
 	- Nomenclature: `type/CODE-descriptive_name`
 	- Commom Branches:
 		> _main | master_: Stable in Production
 		> _rel | release_: Stable to Deploy in Production
+		> _sbx | sandbox_: Specific Feature Validation and Test
 		> _hml | homolog | staging_: Feature Validation and Tests
 		> _dev | develop_: Ustable Product in Development
 
@@ -121,17 +141,17 @@ ___
 
 - Version:
 	- Nomenclature: `X.Y.Z-PR+MD`
-		> **X | Major**: to incompatible API changes.
-		> **Y | Minor**: to add functionality in a backwards compatible manner.
-		> **Z | Patch**: to make backwards compatible bug fixes.
-		> **PR | Pre-Release**: to denote pre-release versions.
-		> **MD | Metadata**: to denote versions with specific metadata.
+		> **X | Major**: to incompatible API changes
+		> **Y | Minor**: to add functionality in a backwards compatible manner
+		> **Z | Patch**: to make backwards compatible bug fixes
+		> **PR | Pre-Release**: to denote pre-release versions
+		> **MD | Metadata**: to denote versions with specific metadata
 - Changelog:
 	- Structure:
 		```markdown
 		# Changelog
 
-		[Semantic Versioning Specification](https://semver.org/spec/v2.0.0.html).
+		[Semantic Versioning Specification](https://semver.org/spec/v2.0.0.html)
 
 
 
