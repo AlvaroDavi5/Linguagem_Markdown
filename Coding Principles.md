@@ -116,12 +116,12 @@ ___
 		* **feat**: new feature addition
 		* **fix**: bugfix or corrections
 		* **hotfix**: urgent fix
-		* **doc**s: documentation updates or corrections
+		* **docs**: documentation updates or corrections
 		* **chore**: packages and configs changes
 		* **build**: dependencies and build files alterations
 		* **test**: tests alterations
 		* **perf**: performance alterations
-		* **refact**or: code refactoration
+		* **refactor**: code refactoration
 		* **style**: code style and format changes
 		* **ci**: continous integration/delivery changes
 		* **env**: environment configurations changes
