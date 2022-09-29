@@ -128,11 +128,11 @@ ___
 - Branches:
 	- Nomenclature: `type/CODE-descriptive_name`
 	- Commom Branches:
-		> _main | master_: Stable in Production
-		> _rel | release_: Stable to Deploy in Production
-		> _sbx | sandbox_: Specific Feature Validation and Test
-		> _hml | homolog | staging_: Feature Validation and Tests
-		> _dev | develop_: Ustable Product in Development
+		> _main | master_: Stable in Production  
+		> _rel | release_: Stable to Deploy in Production  
+		> _sbx | sandbox_: Specific Feature Validation and Test  
+		> _hml | homolog | staging_: Feature Validation and Tests  
+		> _dev | develop_: Ustable Product in Development  
 
 
 ___
@@ -141,11 +141,11 @@ ___
 
 - Version:
 	- Nomenclature: `X.Y.Z-PR+MD`
-		> **X | Major**: to incompatible API changes
-		> **Y | Minor**: to add functionality in a backwards compatible manner
-		> **Z | Patch**: to make backwards compatible bug fixes
-		> **PR | Pre-Release**: to denote pre-release versions
-		> **MD | Metadata**: to denote versions with specific metadata
+		> **X | Major**: to incompatible API changes  
+		> **Y | Minor**: to add functionality in a backwards compatible manner  
+		> **Z | Patch**: to make backwards compatible bug fixes  
+		> **PR | Pre-Release**: to denote pre-release versions  
+		> **MD | Metadata**: to denote versions with specific metadata  
 - Changelog:
 	- Structure:
 		```markdown
@@ -189,7 +189,5 @@ ___
 		#### Removed
 		- Updated...
 		```
-
-
 
 
