@@ -108,7 +108,7 @@ ___
 - Commits:
 	- Structure:
 		```text
-		:emoji: type: resumed description
+		:emoji: type(scope): resumed description
 
 		full description
 		```
