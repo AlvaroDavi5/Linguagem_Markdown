@@ -115,16 +115,17 @@ ___
 	- Types Nomenclature:
 		* **feat**: new feature addition
 		* **fix**: bugfix or corrections
-		* **hotfix**: urgent fix
+			* **(hotfix)**: urgent fix scope
 		* **docs**: documentation updates or corrections
 		* **chore**: packages and configs changes
+			* **(env)**: environment configurations changes scope
 		* **build**: dependencies and build files alterations
 		* **test**: tests alterations
 		* **perf**: performance alterations
 		* **refactor**: code refactoration
 		* **style**: code style and format changes
 		* **ci**: continous integration/delivery changes
-		* **env**: environment configurations changes
+		* **revert**: revert existing commits
 - Branches:
 	- Nomenclature: `type/CODE-descriptive_name`
 	- Commom Branches:
