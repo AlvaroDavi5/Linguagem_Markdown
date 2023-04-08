@@ -64,7 +64,6 @@ ___
 	* **Liskov Substitution**: A Derived Class must be Replaceable with its Base Class
 	* **Interface Segregation**: Segregate Interfaces as per the Requirements of Program rather than one General Purpose Implementation
 	* **Dependency Inversion**: Hight-Level Classes should not depend on Low-Level Classes instead both should depend upon Abstraction
-- ...
 
 ___
 
@@ -79,7 +78,7 @@ ___
 - Port Binding: The essentials services of the app should not depend of external servers and can be accessed by the other app services listening ports
 - Concurrency: The processes should be scaled independently and executed parallelly. The architecture should permit synchronous and asynchronous communication when neccessary
 - Disposability: The processes should be independent and should can be started up or shut down safely, without lost data or affect the other processes
-- Dev/Prod Parity: The develop, homolog and production environments should have parity and minimize gaps with continuous deployment
+- Dev/Prod Parity: The develop, homolog and production environments should have parity and minimize gaps with continuous deployment and backing services aligned
 - Logs: The application logs should be stored safely and monitored to evit/detect errors
 - Admin Processes: Administrative tasks can be automatized to evit exteral/manual dependency
 
@@ -87,13 +86,37 @@ ___
 
 # Domain-Driven Design:
 
+The software is designed following these layers priorities:
+1. Domain Layer
+	- Businness Rules
+	- Registered Values
+2. Application Layer
+	- Logic Flux
+	- Authentication & Authorization
+3. Infrastructure Layer
+	- Backing Services Connection
+4. Interface Layer
+	- API Design
+	- GUI Design
+
+___
+
+# Test-Driven Design:
+
 ...
 
 ___
 
 # Architectures:
 
-...
+- Monolithic: All application architecture and its layers runs as only service (logic, interface, infrastructure, auth...)
+- Microservices: The application architecture is separated in different services, each service with its self logic, interface and infrastructure
+- Client/Server: The client application needs a server application to work. This server application provides all backing services integration
+- Serverless: The client application doesn't need a server application to work. It only uses external backing services on cloud platforms
+- MVC: The application has three main layers: The Model Layer, responsible to describe the app Businness Rules; The View Layer, responsible to the application interface; The Controller Layer, responsible to manage the requests maded by the View Layer to the Model Layer and the backing services.
+- P2P: Descentralized network architecture, where all the clients are servers too and share data between thenselves.
+- Producer/Consumer: The client application listen continually the server application, consuming the events produced by the server
+- Pub/Sub: The client application send a subscription request to the server application, which manage all the subscriptions and send specific events to the respective subscription
 
 ___
 
@@ -190,5 +213,3 @@ ___
 		#### Removed
 		- Updated...
 		```
-
-
