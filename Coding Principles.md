@@ -138,10 +138,10 @@ ___
 	- Types Nomenclature:
 		* **feat**: new feature addition
 		* **fix**: bugfix or corrections
-			* **(hotfix)**: urgent fix scope
+			* _(hotfix)_: urgent fix scope
 		* **docs**: documentation updates or corrections
 		* **chore**: packages and configs changes
-			* **(env)**: environment configurations changes scope
+			* _(env)_: environment configurations changes scope
 		* **build**: dependencies and build files alterations
 		* **test**: tests alterations
 		* **perf**: performance alterations
