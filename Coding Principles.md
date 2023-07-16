@@ -127,7 +127,7 @@ ___
 
 # Design Patters:
 
-GoF Design Pattern:
+* GoF Design Pattern:
 	- State-Machines
 	- Strategies
 	- Factories
