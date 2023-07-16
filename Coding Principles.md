@@ -118,7 +118,7 @@ ___
 - **Microservices**: The application architecture is separated in different services, each service with its self logic, interface and infrastructure.
 - **Client/Server**: The client application needs a server application to work. This server application provides all backing services integration.
 - **Serverless**: The client application doesn't need a server application to work. It only uses external backing services on cloud platforms.
-- **MVC**: The application has three main layers: The Model Layer, responsible to describe the app Businness Rules; The View Layer, responsible to the application interface; The Controller Layer, responsible to manage the requests maded by the View Layer to the Model Layer and the backing services.
+- **MVC**: The application has three main layers: The _Model Layer_, responsible to describe the app Businness Rules; The _View Layer_, responsible to the application interface; The _Controller Layer_, responsible to manage the requests maded by the View Layer to the Model Layer and the backing services.
 - **P2P**: Descentralized network architecture, where all the clients are servers too and share data between thenselves.
 - **Producer/Consumer**: The client application listen continually the server application, consuming the events produced by the server.
 - **Pub/Sub**: The client application send a subscription request to the server application, which manage all the subscriptions and send specific events to the respective subscription.
