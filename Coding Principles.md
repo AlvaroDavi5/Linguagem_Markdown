@@ -13,9 +13,8 @@ ___
 
 - Meaningful, Pronounceable, Searchable and Short but Descriptive Names.
 	* Context Names
-	* Problem Domain Names
-	* Solution Domain Names
-	* Patters Names
+	* Problem/Solution Domain Names
+	* Patterns Names
 - Class Names as Noun.
 - Attribute and Member Names as Adjective.
 - Method and Function Names as Verb.
