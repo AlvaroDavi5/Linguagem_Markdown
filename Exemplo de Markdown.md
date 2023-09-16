@@ -34,8 +34,8 @@ print("Oi")
 
 
 * tópico 1
-	1. Item 1
-	2. Item 2
+	1. subtópico 1
+	2. subtópico 2
 - tópico 2
 	* subtópico 2.1
 	- subtópico 2.2
@@ -43,6 +43,10 @@ print("Oi")
 			> conteudo
 		- sub-subtópico 2.2.2
 			> conteudo
+
+1. Item 1
+2. Item 2
+1. Item 3
 
 
 - [x] checkbox marcado
