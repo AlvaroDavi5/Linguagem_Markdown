@@ -21,6 +21,8 @@ _italico_
 __negrito__  
 **negrito**
 
+~~rasurado~~
+
 
 `linha de código`  
 
